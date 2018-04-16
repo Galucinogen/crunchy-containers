@@ -1,0 +1,11 @@
+version: "2"
+catalog:
+  version: 0
+  minimum_rancher_version: 1.6.0
+  questions:
+    - variable: BUILD
+      label: Build Number
+      description: The build number of the Cadas to deploy
+      required: true
+      default: latest
+      type: string
