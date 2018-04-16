@@ -1,4 +1,5 @@
-.catalog:
+version: "2"
+catalog:
   version: 0
   minimum_rancher_version: 1.6.0
   questions:
