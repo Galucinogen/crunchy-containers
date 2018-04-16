@@ -1,0 +1,13 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: statefulset-pgdata
+spec:
+  selector:
+    matchLabels:
+      name: statefulset-pgdata
+  accessModes:
+  - ReadWriteMany
+  resources:
+    requests:
+      storage: 100M
