@@ -2,5 +2,5 @@ name: 123 Software Crunchy PostgreSQL Containers
 description: |
   Deploys Crunchy PostgreSQL Containers in Rancher in 123 Software
 version: 1
-category: Crunchy
+category: Databases
 maintainer: Ruslan Shevchenko <ruslansh@123software.ru>
