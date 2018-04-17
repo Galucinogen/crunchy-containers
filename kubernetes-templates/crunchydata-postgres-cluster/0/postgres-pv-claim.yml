@@ -1,3 +1,4 @@
+version: "2"
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
